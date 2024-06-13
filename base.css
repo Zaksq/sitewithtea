@@ -28,6 +28,7 @@
 
 .logo_container h1{
     height: 100%;
+    color: rgb(196, 32, 32);
     display: table-cell;
     vertical-align: middle;
     font-family: "Montserrat";

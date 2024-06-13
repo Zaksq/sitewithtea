@@ -7,11 +7,20 @@
   <title>Ztea</title>
 </head>
 <body>
-  <div>
-
-  </div>
-  <div>
-    
+    <div>
+      <button id="themeToggle">Переключить тему</button>
+      <h3 style="align-items: right;">Здравствуйте!<br> Вы попали на сайт, где можно купить чай. У нас представлен огромный ассортимент этого напитка.</h3>
+    </div>
+    <script>
+      document.getElementById('themeToggle').addEventListener('click', function() {
+          const currentTheme = document.body.className;
+          if (currentTheme === 'light-theme') {
+              document.body.className = 'dark-theme';
+          } else {
+              document.body.className = 'light-theme';
+          }
+      });
+      </script>      
   </div>
 </body>
 </html>

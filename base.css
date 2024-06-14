@@ -63,3 +63,23 @@
     font-family: 'Montserrat';
     font-size: 23px;
 }
+
+footer {
+    height: 90px;
+    background-color: rgb(3, 43, 26);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellowgreen;
+  }
+
+footer {
+    margin-top: auto;
+}
+
+.page {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}

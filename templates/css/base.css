@@ -84,3 +84,14 @@ footer {
     flex-direction: column;
     min-height: 100vh;
 }
+
+a.text:active, /* активная/посещенная ссылка */
+a.text:hover,  /* при наведении */
+a.text {
+  text-decoration: none;
+  color: #fff;
+}
+
+#main {
+    color: green;
+}

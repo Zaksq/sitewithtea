@@ -1,4 +1,8 @@
-#aboutus {
+#test {
+    color: chocolate;
+}
+
+#profile {
     color: green;
 }
 a.text:active, /* активная/посещенная ссылка */
@@ -7,4 +11,3 @@ a.text {
   text-decoration: none;
   color: #fff;
 }
-

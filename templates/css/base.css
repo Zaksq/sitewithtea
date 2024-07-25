@@ -172,12 +172,12 @@ ul {
 
 .example-2 {
     display: flex;
-    justify-content: flex-end; /* Выравнивает содержимое вправо */
+    justify-content: flex-end;
     align-items: center;
-    padding: 10px 20px; /* Добавляет отступы вокруг элементов */
-    min-height: 50px; /* Задает минимальную высоту, чтобы футер не был слишком большим */
-    width: 100%; /* Устанавливает ширину на 100% */
-    box-sizing: border-box; /* Учитывает отступы и границы в ширине и высоте */
+    padding: 10px 20px;
+    min-height: 50px;
+    width: 100%; 
+    box-sizing: border-box; 
 }
 
 .example-2 .icon-content {
@@ -256,15 +256,15 @@ ul {
 
 .footer .final {
     display: flex;
-    justify-content: center; /* Центрирование контента */
+    justify-content: center;
     align-items: center;
     padding: 10px 20px;
-    position: relative; /* Для абсолютного позиционирования иконки */
+    position: relative; 
   }
   
   .final__text {
     flex: 1;
-    text-align: center; /* Центрирование текста */
+    text-align: center; 
   }
   
   .example-2 {
@@ -273,7 +273,7 @@ ul {
     padding: 0;
     margin: 0;
     position: absolute;
-    right: 20px; /* Отступ от правого края */
+    right: 20px; 
   }
   
   .icon-content {

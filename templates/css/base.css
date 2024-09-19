@@ -271,3 +271,100 @@ ul {
 .icon-content {
   margin: 0;
 }
+
+.dark-theme {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.dark-theme .header,
+.dark-theme .footer {
+  background-color: #1f1f1f;
+  border-color: #333;
+}
+
+.dark-theme nav ul li a {
+  color: #e0e0e0;
+}
+
+.dark-theme nav ul li a:hover {
+  background-color: #333;
+}
+
+.dark-theme .logo_container h1 {
+  color: #fff;
+}
+
+.dark-theme .logo_container h1 span {
+  color: #ff5722;
+}
+
+.dark-theme .footer .final__text a {
+  color: #ff5722;
+}
+
+.dark-theme .footer .final__text a:hover {
+  color: #e0e0e0;
+}
+
+nav ul li a {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 8px 15px;
+  border-radius: 4px;
+  transition: box-shadow 0.3s, background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .inner_header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer .final__text {
+    font-size: 12px;
+  }
+}
+
+a {
+  color: #6c63ff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #333;
+}
+
+* {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.theme-toggle {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  background-color: transparent;
+  border: none;
+  color: #333;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.theme-toggle:hover {
+  color: #6c63ff;
+}
+
+.dark-theme .theme-toggle {
+  color: #fff;
+}
